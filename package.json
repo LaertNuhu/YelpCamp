@@ -1,0 +1,25 @@
+{
+  "name": "yelpcamp",
+  "version": "1.0.0",
+  "description": "flash will be added landing page created and styled map api added (geocoder installed) campground schema changed to include locations so did show and edit and new views 2 scripts added on show page campgrounds (for the maps api) active page class added at header time since created added (moment installed)",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node app.js"
+  },
+  "dependencies": {
+    "express": "latest",
+    "faker":"latest",
+    "body-parser":"latest",
+    "mongoose":"latest",
+    "method-override":"latest",
+    "passport":"latest",
+    "passport-local":"latest",
+    "passport-local-mongoose":"latest",
+    "express-session":"latest",
+    "connect-flash":"latest",
+    "moment":"latest"
+  },
+  "author": "",
+  "license": "ISC"
+}
