@@ -18,7 +18,8 @@
     "passport-local-mongoose":"latest",
     "express-session":"latest",
     "connect-flash":"latest",
-    "moment":"latest"
+    "moment":"latest",
+    "geocoder":"latest"
   },
   "author": "",
   "license": "ISC"
