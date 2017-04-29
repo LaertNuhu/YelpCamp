@@ -19,7 +19,8 @@
     "express-session":"latest",
     "connect-flash":"latest",
     "moment":"latest",
-    "geocoder":"latest"
+    "geocoder":"latest",
+    "ejs":"latest"
   },
   "author": "",
   "license": "ISC"
