@@ -1,0 +1,14 @@
+NAME  |  PATH     |     HTTP VERB  |PURPOSE                                               | MONGOOSE METHOD
+-------------------------------------------------------------------------------------------------------------------
+INDEX   /dog            GET         lists all dogs                                          Dog.find()
+NEW     /dog/new        GET         Show new dog form                                       NA
+CREATE  /dog            POST        Create a new dog, then redirect somewhere               Dog.create()
+SHOW    /dog/:id        GET         Show info about one specific Dog                        Dog.findById()
+EDIT    /dog/:id/edit   GET         Show edit form for one dog                              Dog.findById()
+UPDATE  /dog/:id        PUT         Update a particular dog, then redirect somewhere        Dog.findByIdAndUpdate()
+DESTROY /dog/:id        DELETE      Delete a particular dog , then redirect somewhere       Dog.findByIdAndRemove()
+
+NESTED ROUTS
+
+NEW     /dog/:id/comments/new GET
+CREATE  /dog/:id/comments     POST

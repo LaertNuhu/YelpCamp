@@ -1,0 +1,16 @@
+#img{
+  width: 100%;
+}
+#thumbnail{
+  padding: 0;
+}
+#thumbnail .caption-full{
+  padding: 9px;
+}
+#login{
+  text-align: center;
+}
+#map {
+    height: 400px;
+    width: 100%;
+}
