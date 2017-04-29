@@ -53,7 +53,7 @@ app.use(function(req,res,next){
 
 
 
-seedDB()  // seed the database
+// seedDB()  // seed the database
 
 // Refactoring
 // you can put a mathching patern in front of indexRoutes , commentRoutes ,campgroundRoutes
