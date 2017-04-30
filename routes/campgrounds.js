@@ -62,7 +62,7 @@ router.get("/campgrounds/:id",function (req,res) {
       console.log(err);
     } else {
       // console.log(foundCamp);
-      res.render("campgrounds/show",{campground:foundCamp,key:"AIzaSyADVTcEJ4DHZwD7yispNtxB4E0Uohthae4"})
+      res.render("campgrounds/show",{campground:foundCamp , key:"AIzaSyADVTcEJ4DHZwD7yispNtxB4E0Uohthae4"})
     }
   })
 

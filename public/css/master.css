@@ -18,9 +18,10 @@
   width: 30%;
   margin: 25px auto;
 }
-#fiximg{
-  height: 118px;
-  width: 244px;
+/* Flexbox grid fix */
+.flex-wrap {
+  display:flex;
+  flex-wrap: wrap;
 }
 @media (max-width: 960px) {
   #registerforms{
