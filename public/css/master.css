@@ -14,3 +14,13 @@
     height: 400px;
     width: 100%;
 }
+#registerforms{
+  width: 30%;
+  margin: 25px auto;
+}
+@media (max-width: 960px) {
+  #registerforms{
+    width: 60%;
+  }
+}
+/*style="width: 60%;"*/
