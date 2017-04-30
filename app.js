@@ -19,7 +19,9 @@ var commentRoutes = require("./routes/comments")
 var campgroundRoutes = require("./routes/campgrounds")
 var indexRoutes = require("./routes/index")
 
-mongoose.connect("mongodb://laert:5207@ds061158.mlab.com:61158/yelpcamp")
+// for the local route declare DATABANKURL by doing export DATABANKURL=mongodb://localhost/yelp_camp
+// for heroku do heroku config:set DATABANKURL=mongodb://laert:5207@ds061158.mlab.com:61158/yelpcamp
+mongoose.connect(process.env.DATABANKURL)
 // mongoose.connect("mongodb://localhost/yelp_camp")
 
 app.set("view engine","ejs");
