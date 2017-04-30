@@ -18,6 +18,10 @@
   width: 30%;
   margin: 25px auto;
 }
+#fiximg{
+  height: 118px;
+  width: 244px;
+}
 @media (max-width: 960px) {
   #registerforms{
     width: 60%;

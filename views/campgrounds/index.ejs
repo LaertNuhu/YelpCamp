@@ -22,7 +22,7 @@
   <% campgrounds.forEach(function(camp){ %>
     <div class="col-md-3 col-sm-6">
       <div class="thumbnail text-center">
-        <img class="img-responsive"src="<%=camp['img']%>" alt="">
+        <img id="fiximg"class="img-responsive"src="<%=camp['img']%>" alt="">
         <div class="caption">
           <h4><%=camp["name"]%></h4>
         </div>
@@ -30,7 +30,7 @@
       </div>
     </div>
     <% }) %>
-    <a href="/campgrounds/new"style="font-size:10em;text-align: center;display: inherit;text-decoration:none">+</a>
+    <a href="/campgrounds/new" style="font-size:10em;text-align: center;text-decoration:none;left: 20px;margin: 0 98px;">+</a>
   </div>
   </div>
 </div>
